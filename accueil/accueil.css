@@ -91,6 +91,7 @@ body {
         margin-top: 125px;
         margin-left: 300px;
         margin-right: 400px;
+        margin-bottom: 50px;
         justify-content: center;
         display: flex;
         flex-direction: row;
@@ -139,34 +140,135 @@ body {
         }
       }
     }
-    .avisCard {
-      border: black 1px solid;
-      border-radius: 15px;
-      width: 400px;
-      height: 500px;
-      img {
-        width: 50px;
-      }
-      .empty {
-        height: 350px;
-      }
-      .dark {
-        height: 150px;
+    #realisation {
+      margin-top: 50px;
+      h2 {
+        text-align: center;
         background-image: linear-gradient(
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.8)
+          to right,
+          rgb(255, 255, 255),
+          rgb(0, 0, 153)
         );
+        color: transparent;
+        background-clip: text;
+      }
+      img {
+        margin-top: 125px;
+        margin-left: 300px;
+        margin-right: 400px;
+        width: 800px;
+      }
+      .projet1 {
+        margin-left: 250px;
+        margin-bottom: 50px;
+        padding-top: 490px;
+        border-radius: 25px;
+        height: 50px;
+        width: 900px;
+      }
+      #clc {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        button {
+          margin-left: 500px;
+          border-radius: 50px;
+          width: 150px;
+          background-image: linear-gradient(to right, blue, rgb(2, 2, 88));
+          color: white;
+          text-decoration: none;
+          margin-bottom: 10px;
+          a {
+            font-family: "Saira", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            text-decoration: none;
+            color: white;
+          }
+        }
       }
     }
-    #avis1 {
-      background-image: url(images/photo_inter_1.jpg);
+    #fond {
+      background-image: url(images/nos_projet1.jpg);
       background-size: cover;
       background-position: center;
     }
-    #avis2 {
-      background-image: url(images/persone2.jpg);
-      background-size: cover;
-      background-position: center;
+    h2 {
+      text-align: center;
+      background-image: linear-gradient(
+        to right,
+        rgb(255, 255, 255),
+        rgb(0, 0, 153)
+      );
+      color: transparent;
+      background-clip: text;
+    }
+    #temoigniage {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .avisCard {
+        h3 {
+          text-align: center;
+          color: white;
+        }
+        border: black 1px solid;
+        border-radius: 15px;
+        width: 400px;
+        height: 500px;
+        img {
+          width: 70px;
+        }
+        .empty {
+          height: 350px;
+        }
+      }
+      #avis1 {
+        background-image: url(images/photo_inter_1.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      #avis2 {
+        background-image: url(images/persone2.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      #avis3 {
+        background-image: url(images/persone_3.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    #interesser {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      button {
+        width: 150px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right, blue, rgb(2, 2, 88));
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .ecriture {
+      display: flex;
+      flex-direction: column;
+    }
+    .truc {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      width: 60px;
     }
   }
 }
