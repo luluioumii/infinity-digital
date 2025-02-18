@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: blue;
+  font-family: "Righteous", serif;
+}
+
+h2 {
+  color: white;
+  font-family: "Righteous", serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Righteous", serif;
+}
+
+p {
+  font-family: "Saira", serif;
+  color: white;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  img {
+    height: 50px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  button {
+    border-radius: 50px;
+    width: 150px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: "Saira", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+    }
+    background-image: linear-gradient(to right, blue, rgb(2, 2, 88));
+  }
+  #button1 {
+    background-image: linear-gradient();
+  }
+  #button3 {
+    background-image: linear-gradient(
+      to right,
+      rgb(152, 152, 236),
+      rgb(95, 95, 225)
+    );
+  }
+}
+
+body {
+  background-image: linear-gradient(#000000, #2f5776);
+}
+
+
+main {
+  color: white;
+margin-top: 70px;
+  margin-left: 100px;
+  align-items: end;
+  li {
+    margin-top: 30px;
+  }
+
+  button {
+    a {
+      text-decoration: none;
+    }
+    background-image: linear-gradient(
+      to right,
+      rgb(152, 152, 236),
+      rgb(95, 95, 225)
+    );
+    margin-top: 100px;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+  }
+
+  .Marketing10 {
+    display: flex;
+    margin-right: 170px;
+    margin-top: 70px;
+
+  }
+
+  .Contactez-nous {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    button {
+      margin-top: 5px;
+    }
+  }
+}
+
+.darkButton {
+  
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .ecriture {
+    display: flex;
+    flex-direction: column;
+  }
+  .truc {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 60px;
+  }
+}
+
